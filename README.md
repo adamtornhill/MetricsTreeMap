@@ -24,8 +24,8 @@ If you want to save a tree map to file, press `s`. The file will be post-fixed w
 
 The `MetricsTreeMap` sketch reads its data from any file named `metric_data.csv` (yes, it's hardcoded in the sketch). The `csv` file is expected to have two columns:
 
-           1) The name of the module/entity, and 
-           2) The metric itself. The metric is used as weight in the tree map.
+1. The name of the module/entity, and 
+2. The metric itself. The metric is used as weight in the tree map.
 
 For example:
 
@@ -37,13 +37,13 @@ For example:
 
 Just put your `metric_data.csv` file into the sketch folder and run the application in Processing. Enjoy your visualized data and I hope you find the sketch useful.
 
-## Implementation notes
+### Implementation notes
 The implementation is done in the [Processing](http://processing.org) language with a good ol' imperative coding style. There's something special about the interactive feeling and ease of experimantation that `Processing` provides.
 The tree map library I use has support for hierarchical structures too, so that's probably something I'll add in future versions.
 
 ## Credits
-I've based the general structure of the sketch on the code in `Visualizing Data: Exploring and Explaining Data with the Processing Environment` by `Ben Fry`.
+I've based the general structure of the sketch on the code in *Visualizing Data: Exploring and Explaining Data with the Processing Environment* by Ben Fry.
 
-The idea and technique to optimize the text font is from the book `Generative Design: Visualize, Program, and Create with Processing` by `Hartmut Bohnacker`, `Benedikt Gross`, `Julia Laub`, and `Claudius Lazzeroni`. 
+The idea and technique to optimize the text font is from the book *Generative Design: Visualize, Program, and Create with Processing* by Hartmut Bohnacker, Benedikt Gross, Julia Laub, and Claudius Lazzeroni. 
 
 Both of these books are good reads with lots of useful information and techniques - recommended.
