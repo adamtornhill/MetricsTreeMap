@@ -1,6 +1,6 @@
 # MetricsTreeMap
 
-This visualization utility is a set of Processing sketches used to present data as tree maps.
+This visualization utility is a set of [Processing](http://processing.org) sketches used to present data as tree maps.
 
 ## Tree maps
 
@@ -38,11 +38,11 @@ For example:
 Just put your `metric_data.csv` file into the sketch folder and run the application in Processing. Enjoy your visualized data and I hope you find the sketch useful.
 
 ## Implementation notes
-The implementation is done in the Processing language with a good ol' imperative coding style. There's something special about the interactive feeling and ease of experimantation that Processing provides.
-The tree map library has support for hierarchical structures too, so that's probably something I'll add in future versions.
+The implementation is done in the [Processing](http://processing.org) language with a good ol' imperative coding style. There's something special about the interactive feeling and ease of experimantation that `Processing` provides.
+The tree map library I use has support for hierarchical structures too, so that's probably something I'll add in future versions.
 
 ## Credits
-I've based the general structure on the code in `Visualizing Data: Exploring and Explaining Data with the Processing Environment` by `Ben Fry`.
+I've based the general structure of the sketch on the code in `Visualizing Data: Exploring and Explaining Data with the Processing Environment` by `Ben Fry`.
 
 The idea and technique to optimize the text font is from the book `Generative Design: Visualize, Program, and Create with Processing` by `Hartmut Bohnacker`, `Benedikt Gross`, `Julia Laub`, and `Claudius Lazzeroni`. 
 
