@@ -6,7 +6,7 @@ This visualization utility is a set of Processing sketches used to present data 
 
 I use this sketch to visualize output from [Code Maat](https://github.com/adamtornhill/code-maat), my software analysis tool:
 
-![ordered tree map](doc/map_ordered.png)
+![ordered tree map](doc/map_ordered.png).
 
 The tree map above is a visualization of all modules in [Code Maat](https://github.com/adamtornhill/code-maat) weighted and coloured by their evolutionary change frequency.
 
@@ -15,7 +15,7 @@ A tree map is basically an algorithm for visualizing the relative sizes of its d
 ### Layout algorithms
 `MetricsTreeMap` supports a number of different layout algorithms. Just press the keys `1-5` while running the sketch to switch layout. For example, here's the default dynamic map layout of the same data:
 
-![dynamic tree map](doc/map_dynamic.png)
+![dynamic tree map](doc/map_dynamic.png).
 
 ### Saving a visualization
 If you want to save a tree map to file, press `s`. The file will be post-fixed with the current date and time so you can save multiple versions with different layouts in the same directory.
